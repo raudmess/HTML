@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+<h1>The Main Languages of the Web</h1>
+<p>HTML is the standard markup language for creating Web page.</p>
+<hr>
+<p>CSS is a language that describes how</p>
+<hr>
+<p>JavaScript is the programming language of HTML.</p>
+<h2>Absolute URLs</h2>
+<p><a href="https://www.tlu.ee/">review</a></p>
+<h2>Relative URLs</h2>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+<img hight 100 src="me.png" alt="Flowers in Chania">
+<table style="width:100%">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <form action="/action_page.php">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <label for="review">Review of reviewSchools:</label>
+
+  <textarea id="review" name="review" rows="4" cols="50"> </textarea>
+  <br><br>
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+    <iframe src="https://www.tlu.ee" title="Tallinn University Homepage"></iframe>
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+      <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+          audio controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+        <marquee width="60%" direction="up" height="100px">
+            This is a sample scrolling text that has scrolls in the upper direction.
+            </marquee>            
+</body>
+</html>
